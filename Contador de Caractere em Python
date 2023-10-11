@@ -1,7 +1,4 @@
-entrada = input('Digite uma palavra: ')
-def contar(*args):
-    for count in args:                      #Contador de String complexo(com a string que o usuário desejar)
-        print(f'A palavra escolhida tem {len(count)} caracteres')
-
-
-contar(entrada)
+entrada2 = input('Digite uma palavra: ')
+def contador(palavra):                          
+    print(f'A palavra tem: {len(palavra)} caracteres.')
+contador(entrada2)
